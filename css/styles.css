@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "bold"; /*fonte*/
+  margin: 0;
+}
+
+header {
+  background-color: var(--header-color);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.produto {
+  display: flex;
+  justify-content: space-between; /*space-between*/
+  padding: 50px 20px;
+  background-color: var(--produto-color);
+}
+
+.produto .descricao {
+  width: 45%;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.produto .descricao h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.produto .imagem-produto {
+  width: 45%;
+}
+
+.produto .imagem-produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 200%;
+}
+
+.contato {
+  background-color: var(--contato-color);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.comprar {
+  background-color: blue; 
+  color: white; 
+  border: 2px solid blue; 
+  border-radius: 5px; 
+  padding: 15px 30px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+#fotos {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+#fichatec {
+  text-align: left;
+}
+
+#textoinfo {
+  text-align: center;
+}
+
+#a1 {
+  text-align: left;
+}
+
+#textopreco {
+    font-size: 10px;
+}

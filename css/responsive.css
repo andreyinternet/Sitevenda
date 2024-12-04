@@ -1,0 +1,94 @@
+
+@media (max-width: 1200px) {
+    .produto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto .descricao, .produto .imagem-produto {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .produto .descricao h2 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .produto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto .descricao, .produto .imagem-produto {
+        width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header .logo img {
+        height: 30px;
+    }
+
+    .produto .descricao h2 {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    .produto .descricao h2 {
+        font-size: 20px;
+    }
+
+    .produto .descricao p {
+        font-size: 16px;
+    }
+
+    .contato h3 {
+        font-size: 20px;
+    }
+
+    .contato p {
+        font-size: 14px;
+    }
+    #fotos {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+#fichatec {
+  text-align: left;
+}
+
+#textoinfo {
+  text-align: center;
+}
+
+#a1 {
+  text-align: left;
+}
+
+#textopreco {
+    font-size: 10px;
+}
+
+}
